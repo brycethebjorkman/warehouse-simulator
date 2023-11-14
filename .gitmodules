@@ -1,0 +1,3 @@
+[submodule "lingua-franca-tsn"]
+	path = lingua-franca-tsn
+	url = git@github.com:brycethebjorkman/lingua-franca-tsn
