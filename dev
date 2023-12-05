@@ -1,0 +1,74 @@
+#!/bin/bash
+
+usage="
+Usage:
+    $0 [options]
+
+Options:
+    -b, --build             build the container before starting
+    -e, --execute string    execute the given string as a command in the container
+"
+
+usage() {
+    echo "$usage"
+}
+
+OPTIONS=$(getopt -o be: --long build,execute: == "$@")
+
+if [ $? -ne 0 ]; then
+    usage
+    exit 1
+fi
+
+build=false
+execute=""
+
+eval set -- "$OPTIONS"
+while true; do
+    case "$1" in
+        -b|--build)
+            build=true
+            shift
+            ;;
+        -e|--execute)
+            execute=$2
+            shift 2
+            ;;
+        --)
+            shift
+            break
+            ;;
+        *)
+            usage
+            ;;
+    esac
+done
+
+if [ $build = true ]; then
+    pushd lingua-franca-tsn > /dev/null
+    ./build
+    popd > /dev/null
+fi
+
+container="warehouse-simulator"
+
+set -e
+
+./lingua-franca-tsn/dev --create "$container"
+
+trap "podman container rm $container" EXIT
+
+podman cp ./src/ $container:/usr/app/src/warehouse
+
+if [ -n "$execute" ]; then
+    podman exec \
+        "$container" \
+        bash \
+        -c "$execute"
+fi
+
+podman start $container
+
+podman attach $container
+
+exit 0
