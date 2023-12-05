@@ -5,7 +5,7 @@ import  Retrieval   from "Retrieval.lf"
 import  Sortation   from "Sortation.lf"
 import  Storage     from "Storage.lf"
 
-federated reactor {
+federated reactor Warehouse {
     controller  = new Controller()
     retrieval   = new Retrieval()
     sortation   = new Sortation()
