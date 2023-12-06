@@ -5,11 +5,11 @@ import  Retrieval   from "Retrieval.lf"
 import  Sortation   from "Sortation.lf"
 import  Storage     from "Storage.lf"
 
-federated reactor Warehouse {
-    controller  = new Controller()
-    retrieval   = new Retrieval()
-    sortation   = new Sortation()
-    storage     = new Storage()
+federated reactor Warehouse at 192.168.2.1 {
+    controller  = new Controller() at 192.168.2.2;
+    retrieval   = new Retrieval() at 192.168.2.3;
+    sortation   = new Sortation() at 192.168.2.4;
+    storage     = new Storage() at 192.168.2.5;
 
     retrieval.msg   -> controller.retrieval_msg_in
     sortation.msg   -> controller.sortation_msg_in
