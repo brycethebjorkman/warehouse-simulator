@@ -1,0 +1,10 @@
+#!/bin/bash
+#
+# build Lingua Franca reactors
+
+pushd /usr/app/src/warehouse > /dev/null
+
+stdbuf -i 0 -o 0 -e 0 \
+lfc Warehouse.lf
+
+popd > /dev/null
