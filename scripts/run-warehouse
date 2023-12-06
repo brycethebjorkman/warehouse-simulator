@@ -1,0 +1,41 @@
+#!/bin/bash
+#
+# run the simulation
+
+set -e
+
+warehouse="/usr/app/bin/Warehouse"
+
+if [ ! -e "$warehouse" ]; then
+    echo "Building Warehouse before running simulation"
+    bash build-warehouse
+fi
+
+federation="Warehouse"
+federates=(\
+    "controller" \
+    "retrieval" \
+    "sortation" \
+    "storage" \
+)
+pushd /root > /dev/null
+mkdir -p LinguaFrancaRemote/bin LinguaFrancaRemote/log
+for federate in "${federates[@]}"; do
+    echo "Distributing remote executable for federate__$federate"
+    mkdir -p "LinguaFrancaRemote/fed-gen/$federation/src-gen/federate__$federate/core"
+    cp "/usr/app/fed-gen/$federation/bin/federate__$federate" "/root/LinguaFrancaRemote/bin/${federation}_federate__$federate"
+done
+
+popd > /dev/null
+
+simulation="five_host"
+
+echo "Starting network simulation"
+
+bash run -p "$simulation" &
+
+sleep 2
+
+echo "Starting Warehouse"
+
+bash $warehouse
