@@ -59,6 +59,7 @@ set -e
 trap "podman container rm $container" EXIT
 
 podman cp ./src/ $container:/usr/app/src/warehouse
+podman cp ./scripts/* $container:/usr/app
 
 if [ -n "$execute" ]; then
     podman exec \
