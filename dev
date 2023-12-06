@@ -56,19 +56,22 @@ set -e
 
 ./lingua-franca-tsn/dev --create "$container"
 
-trap "podman container rm $container" EXIT
+trap "podman container stop $container ; podman container rm $container" EXIT
 
 podman cp ./src/ $container:/usr/app/src/warehouse
-podman cp ./scripts/* $container:/usr/app
+podman cp ./scripts/. $container:/usr/app
+
+podman start $container
+
+set +e
 
 if [ -n "$execute" ]; then
     podman exec \
+        -it \
         "$container" \
         bash \
         -c "$execute"
 fi
-
-podman start $container
 
 podman attach $container
 
