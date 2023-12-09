@@ -28,14 +28,62 @@ done
 
 popd > /dev/null
 
-simulation="five_host"
+simulation="star_tree"
 
 echo "Starting network simulation"
 
-bash run -p "$simulation" &
+mkdir -p results
 
-sleep 2
+bash run -p "$simulation" &> results/simulation.log &
+
+while ! ip a | grep -q "tap_l.*state UP";
+do
+    sleep 1
+done
 
 echo "Starting Warehouse"
 
-bash $warehouse
+FEDERATION_ID=`openssl rand -hex 24`
+log_dir=$(realpath results)/log
+
+mkdir -p "$log_dir"
+
+federates=(
+    "controller" 192.168.2.2
+    "retrieval" 192.168.2.3
+    "sortation" 192.168.2.4
+    "storage" 192.168.2.5
+)
+federates_size=${#federates[@]}
+num_federates=$((federates_size / 2))
+
+r_log="$log_dir/BasicFederation_RTI.log"
+ssh 192.168.2.1 '\
+    echo "-------------- Federation ID: "'$FEDERATION_ID' >> '$r_log'; \
+    date >> '$r_log'; \
+    stdbuf -i 0 -o 0 -e 0 \
+    RTI -i '$FEDERATION_ID' -n '$num_federates' -c init exchanges-per-interval 10 \
+    2>&1 | tee -a '$r_log'' &
+
+start_federate(){
+    name=$1
+    ip=$2
+    log="$log_dir/BasicFederation_federate__$name.log"
+
+    echo "Starting federate $name at $ip with log $log"
+
+    ssh "$ip" '\
+        cd LinguaFrancaRemote; \
+        echo "-------------- Federation ID: "'$FEDERATION_ID' >> '$log'; \
+        date >> '$log'; \
+        stdbuf -i 0 -o 0 -e 0 \
+        bin/'$federation'_federate__'$name' -i '$FEDERATION_ID' \
+        2>&1 | tee -a '$log'' &
+}
+
+num=0
+while [ $num -lt $federates_size ]
+do
+    start_federate ${federates[$num]} ${federates[($num + 1)]}
+    ((num += 2))
+done
