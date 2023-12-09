@@ -12,15 +12,24 @@ if [ ! -e "$warehouse" ]; then
 fi
 
 federation="Warehouse"
-federates=(\
-    "controller" \
-    "retrieval" \
-    "sortation" \
-    "storage" \
-)
+
+
+federate_definitions=$(awk '/= new .* at .*;/ { gsub(";", ""); print $1, $NF }' "src/warehouse/Warehouse.lf")
+readarray -t federates <<< $federate_definitions
+num_federates=${#federates[@]}
+
+declare -A federates_name
+declare -A federates_ip
+for ((i = 0; i < "$num_federates"; i++)); do
+    federate="${federates[$i]}"
+    federates_name[$i]=$(echo "$federate" | awk '{ print $1 }')
+    federates_ip[$i]=$(echo "$federate" | awk '{ print $2 }')
+    echo "federate $i name ${federates_name[$i]} ip ${federates_ip[$i]}"
+done
+
 pushd /root > /dev/null
 mkdir -p LinguaFrancaRemote/bin LinguaFrancaRemote/log
-for federate in "${federates[@]}"; do
+for federate in "${federates_name[@]}"; do
     echo "Distributing remote executable for federate__$federate"
     mkdir -p "LinguaFrancaRemote/fed-gen/$federation/src-gen/federate__$federate/core"
     cp "/usr/app/fed-gen/$federation/bin/federate__$federate" "/root/LinguaFrancaRemote/bin/${federation}_federate__$federate"
@@ -48,16 +57,7 @@ log_dir=$(realpath results)/log
 
 mkdir -p "$log_dir"
 
-federates=(
-    "controller" 192.168.2.2
-    "retrieval" 192.168.2.3
-    "sortation" 192.168.2.4
-    "storage" 192.168.2.5
-)
-federates_size=${#federates[@]}
-num_federates=$((federates_size / 2))
-
-r_log="$log_dir/BasicFederation_RTI.log"
+r_log="$log_dir/${federation}_RTI.log"
 ssh 192.168.2.1 '\
     echo "-------------- Federation ID: "'$FEDERATION_ID' >> '$r_log'; \
     date >> '$r_log'; \
@@ -68,7 +68,7 @@ ssh 192.168.2.1 '\
 start_federate(){
     name=$1
     ip=$2
-    log="$log_dir/BasicFederation_federate__$name.log"
+    log="$log_dir/${federation}_federate__$name.log"
 
     echo "Starting federate $name at $ip with log $log"
 
@@ -81,9 +81,6 @@ start_federate(){
         2>&1 | tee -a '$log'' &
 }
 
-num=0
-while [ $num -lt $federates_size ]
-do
-    start_federate ${federates[$num]} ${federates[($num + 1)]}
-    ((num += 2))
+for ((i = 0; i < "$num_federates"; i++)); do
+    start_federate ${federates_name[$i]} ${federates_ip[$i]}
 done
