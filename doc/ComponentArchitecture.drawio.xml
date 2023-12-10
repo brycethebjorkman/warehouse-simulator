@@ -1,0 +1,226 @@
+<mxfile host="Electron" modified="2023-12-06T19:29:49.764Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="uEMIBGJPamrcVvYus3yq" version="22.1.2" type="device">
+  <diagram name="Page-1" id="0k6nY1SjoENjlOWJ53Iq">
+    <mxGraphModel dx="2887" dy="1386" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="eI27Z6REQub_k_TNqKYR-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eI27Z6REQub_k_TNqKYR-8" target="eI27Z6REQub_k_TNqKYR-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eI27Z6REQub_k_TNqKYR-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eI27Z6REQub_k_TNqKYR-8" target="eI27Z6REQub_k_TNqKYR-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-609" y="462" />
+              <mxPoint x="-609" y="462" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eI27Z6REQub_k_TNqKYR-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eI27Z6REQub_k_TNqKYR-8" target="eI27Z6REQub_k_TNqKYR-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-708" y="93" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eI27Z6REQub_k_TNqKYR-8" value="&lt;b style=&quot;border-color: var(--border-color); font-size: 15px;&quot;&gt;Live Roller Conveyor Zone&lt;/b&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=15;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-745" y="430" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="eI27Z6REQub_k_TNqKYR-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eI27Z6REQub_k_TNqKYR-9" target="eI27Z6REQub_k_TNqKYR-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-250" y="490" />
+              <mxPoint x="-250" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eI27Z6REQub_k_TNqKYR-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eI27Z6REQub_k_TNqKYR-9" target="eI27Z6REQub_k_TNqKYR-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-57" y="462" />
+              <mxPoint x="-57" y="462" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eI27Z6REQub_k_TNqKYR-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eI27Z6REQub_k_TNqKYR-9" target="eI27Z6REQub_k_TNqKYR-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-131" y="92" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eI27Z6REQub_k_TNqKYR-9" value="&lt;b style=&quot;border-color: var(--border-color); font-size: 15px;&quot;&gt;Stacker Crane&lt;/b&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-193" y="430" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="eI27Z6REQub_k_TNqKYR-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eI27Z6REQub_k_TNqKYR-10" target="eI27Z6REQub_k_TNqKYR-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-606" y="490" />
+              <mxPoint x="-606" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eI27Z6REQub_k_TNqKYR-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eI27Z6REQub_k_TNqKYR-10" target="eI27Z6REQub_k_TNqKYR-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-423" y="462" />
+              <mxPoint x="-423" y="462" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eI27Z6REQub_k_TNqKYR-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eI27Z6REQub_k_TNqKYR-10" target="eI27Z6REQub_k_TNqKYR-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-501" y="279" />
+              <mxPoint x="-501" y="279" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eI27Z6REQub_k_TNqKYR-10" value="&lt;b style=&quot;border-color: var(--border-color); font-size: 15px;&quot;&gt;Chain Cross Transfer&lt;/b&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-561" y="430" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="eI27Z6REQub_k_TNqKYR-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eI27Z6REQub_k_TNqKYR-11" target="eI27Z6REQub_k_TNqKYR-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1081" y="-5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eI27Z6REQub_k_TNqKYR-11" value="&lt;b style=&quot;border-color: var(--border-color); font-size: 15px;&quot;&gt;Gate&lt;/b&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=15;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-1113" y="430" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="eI27Z6REQub_k_TNqKYR-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eI27Z6REQub_k_TNqKYR-13" target="eI27Z6REQub_k_TNqKYR-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-241" y="463" />
+              <mxPoint x="-241" y="463" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eI27Z6REQub_k_TNqKYR-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eI27Z6REQub_k_TNqKYR-13" target="eI27Z6REQub_k_TNqKYR-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-429" y="490" />
+              <mxPoint x="-429" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eI27Z6REQub_k_TNqKYR-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eI27Z6REQub_k_TNqKYR-13" target="eI27Z6REQub_k_TNqKYR-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-341" y="283" />
+              <mxPoint x="-341" y="283" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eI27Z6REQub_k_TNqKYR-13" value="&lt;b style=&quot;border-color: var(--border-color); font-size: 15px;&quot;&gt;Live Roller Conveyor Zone&lt;/b&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=15;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-377" y="430" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="eI27Z6REQub_k_TNqKYR-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eI27Z6REQub_k_TNqKYR-16" target="eI27Z6REQub_k_TNqKYR-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eI27Z6REQub_k_TNqKYR-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eI27Z6REQub_k_TNqKYR-16" target="eI27Z6REQub_k_TNqKYR-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-892" y="47" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eI27Z6REQub_k_TNqKYR-16" value="&lt;b style=&quot;border-color: var(--border-color); font-size: 15px;&quot;&gt;Live Roller Conveyor Zone&lt;/b&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=15;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-929" y="430" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="eI27Z6REQub_k_TNqKYR-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eI27Z6REQub_k_TNqKYR-17" target="eI27Z6REQub_k_TNqKYR-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1048" y="22" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eI27Z6REQub_k_TNqKYR-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eI27Z6REQub_k_TNqKYR-17" target="eI27Z6REQub_k_TNqKYR-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-856" y="68" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eI27Z6REQub_k_TNqKYR-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eI27Z6REQub_k_TNqKYR-17" target="eI27Z6REQub_k_TNqKYR-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-674" y="116" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eI27Z6REQub_k_TNqKYR-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eI27Z6REQub_k_TNqKYR-17" target="eI27Z6REQub_k_TNqKYR-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-525" y="280" />
+              <mxPoint x="-525" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eI27Z6REQub_k_TNqKYR-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eI27Z6REQub_k_TNqKYR-17" target="eI27Z6REQub_k_TNqKYR-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-319" y="279" />
+              <mxPoint x="-319" y="279" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eI27Z6REQub_k_TNqKYR-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eI27Z6REQub_k_TNqKYR-17" target="eI27Z6REQub_k_TNqKYR-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-159" y="116" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eI27Z6REQub_k_TNqKYR-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eI27Z6REQub_k_TNqKYR-17" target="eI27Z6REQub_k_TNqKYR-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="14" y="68" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eI27Z6REQub_k_TNqKYR-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eI27Z6REQub_k_TNqKYR-17" target="eI27Z6REQub_k_TNqKYR-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="204" y="25" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eI27Z6REQub_k_TNqKYR-17" value="&lt;b style=&quot;border-color: var(--border-color); font-size: 15px;&quot;&gt;Warehouse Management System&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-561" y="-24" width="274" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="eI27Z6REQub_k_TNqKYR-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eI27Z6REQub_k_TNqKYR-34" target="eI27Z6REQub_k_TNqKYR-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eI27Z6REQub_k_TNqKYR-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eI27Z6REQub_k_TNqKYR-34" target="eI27Z6REQub_k_TNqKYR-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="235" y="-4" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eI27Z6REQub_k_TNqKYR-34" value="&lt;b style=&quot;border-color: var(--border-color); font-size: 15px;&quot;&gt;Gate&lt;/b&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=15;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="175" y="430" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="eI27Z6REQub_k_TNqKYR-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eI27Z6REQub_k_TNqKYR-35" target="eI27Z6REQub_k_TNqKYR-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-63" y="489" />
+              <mxPoint x="-63" y="489" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eI27Z6REQub_k_TNqKYR-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eI27Z6REQub_k_TNqKYR-35" target="eI27Z6REQub_k_TNqKYR-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="44" y="48" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eI27Z6REQub_k_TNqKYR-35" value="&lt;b style=&quot;border-color: var(--border-color); font-size: 15px;&quot;&gt;Live Roller Conveyor Zone&lt;/b&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=15;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-9" y="430" width="90" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

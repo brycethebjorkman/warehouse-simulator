@@ -1,0 +1,304 @@
+<mxfile host="Electron" modified="2023-12-06T18:51:44.383Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="BeY_1BHmGdKiOKAaPYe1" version="22.1.2" type="device">
+  <diagram name="Page-1" id="0k6nY1SjoENjlOWJ53Iq">
+    <mxGraphModel dx="3585" dy="1295" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Qpr2iq27fssjLLrTtA4k-2" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;Pallet Racks&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;strokeWidth=2;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="90" y="1500" width="90" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="Qpr2iq27fssjLLrTtA4k-6" value="Aisle" style="swimlane;whiteSpace=wrap;html=1;startSize=21;fontSize=16;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;strokeWidth=2;gradientColor=none;labelBackgroundColor=none;swimlaneFillColor=#E6E6E6;" parent="1" vertex="1">
+          <mxGeometry x="191" y="1400" width="110" height="538" as="geometry" />
+        </mxCell>
+        <mxCell id="Qpr2iq27fssjLLrTtA4k-3" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;Stacker Crane&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" parent="Qpr2iq27fssjLLrTtA4k-6" vertex="1">
+          <mxGeometry x="10" y="30" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qpr2iq27fssjLLrTtA4k-9" value="&lt;b style=&quot;border-color: var(--border-color); font-size: 16px;&quot;&gt;&amp;nbsp;Live Roller Conveyor&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="90" y="1310" width="90" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-4" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;Chain Cross Transfer&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="90" y="1250" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-5" value="" style="verticalLabelPosition=bottom;verticalAlign=middle;html=1;shape=mxgraph.basic.partConcEllipse;startAngle=0.5016407144851296;endAngle=0.9984085036175459;arcWidth=0.48;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;fontSize=16;strokeWidth=2;rotation=-180;" parent="1" vertex="1">
+          <mxGeometry x="1373" y="1061" width="281" height="249" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-6" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;Chain Cross Transfer&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="90" y="1061" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-7" value="&lt;b style=&quot;border-color: var(--border-color); font-size: 16px;&quot;&gt;&amp;nbsp;Live Roller Conveyor&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1428" y="1250" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-9" value="&lt;b style=&quot;border-color: var(--border-color); font-size: 16px;&quot;&gt;&amp;nbsp;Live Roller Conveyor&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1428" y="1061" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-11" value="&lt;b style=&quot;border-color: var(--border-color); font-size: 16px;&quot;&gt;&amp;nbsp;Live Roller Conveyor&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="90" y="881" width="90" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-12" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;Pallet Racks&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;strokeWidth=2;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="312" y="1500" width="180" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-15" value="&lt;b style=&quot;border-color: var(--border-color); font-size: 16px;&quot;&gt;&amp;nbsp;Live Roller Conveyor&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="402" y="1310" width="90" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-16" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;Chain Cross Transfer&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="402" y="1250" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-17" value="&lt;b style=&quot;border-color: var(--border-color); font-size: 16px;&quot;&gt;&amp;nbsp;Live Roller Conveyor&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="180" y="1250" width="222" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-28" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;Pallet Racks&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;strokeWidth=2;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="624" y="1500" width="180" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-29" value="&lt;b style=&quot;border-color: var(--border-color); font-size: 16px;&quot;&gt;&amp;nbsp;Live Roller Conveyor&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="714" y="1310" width="90" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-30" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;Chain Cross Transfer&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="714" y="1250" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-31" value="&lt;b style=&quot;border-color: var(--border-color); font-size: 16px;&quot;&gt;&amp;nbsp;Live Roller Conveyor&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="492" y="1250" width="222" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-34" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;Pallet Racks&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;strokeWidth=2;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="936" y="1500" width="180" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-35" value="&lt;b style=&quot;border-color: var(--border-color); font-size: 16px;&quot;&gt;&amp;nbsp;Live Roller Conveyor&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1026" y="1310" width="90" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-36" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;Chain Cross Transfer&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1026" y="1250" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-37" value="&lt;b style=&quot;border-color: var(--border-color); font-size: 16px;&quot;&gt;&amp;nbsp;Live Roller Conveyor&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="804" y="1250" width="222" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-40" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;Pallet Racks&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;strokeWidth=2;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="1248" y="1500" width="180" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-41" value="&lt;b style=&quot;border-color: var(--border-color); font-size: 16px;&quot;&gt;&amp;nbsp;Live Roller Conveyor&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1338" y="1310" width="90" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-42" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;Chain Cross Transfer&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1338" y="1250" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-43" value="&lt;b style=&quot;border-color: var(--border-color); font-size: 16px;&quot;&gt;&amp;nbsp;Live Roller Conveyor&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1116" y="1250" width="222" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-46" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;Pallet Racks&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;strokeWidth=2;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="1560" y="1500" width="90" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-50" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;Chain Cross Transfer&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="402" y="1061" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-51" value="&lt;b style=&quot;border-color: var(--border-color); font-size: 16px;&quot;&gt;&amp;nbsp;Live Roller Conveyor&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="180" y="1061" width="222" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-52" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;Chain Cross Transfer&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="714" y="1061" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-53" value="&lt;b style=&quot;border-color: var(--border-color); font-size: 16px;&quot;&gt;&amp;nbsp;Live Roller Conveyor&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="492" y="1061" width="222" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-54" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;Chain Cross Transfer&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1026" y="1061" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-55" value="&lt;b style=&quot;border-color: var(--border-color); font-size: 16px;&quot;&gt;&amp;nbsp;Live Roller Conveyor&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="804" y="1061" width="222" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-56" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;Chain Cross Transfer&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1338" y="1061" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-57" value="&lt;b style=&quot;border-color: var(--border-color); font-size: 16px;&quot;&gt;&amp;nbsp;Live Roller Conveyor&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1116" y="1061" width="222" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-60" value="&lt;b style=&quot;border-color: var(--border-color); font-size: 16px;&quot;&gt;&amp;nbsp;Live Roller Conveyor&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="402" y="881" width="90" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-61" value="&lt;b style=&quot;border-color: var(--border-color); font-size: 16px;&quot;&gt;&amp;nbsp;Live Roller Conveyor&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="714" y="881" width="90" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-62" value="&lt;b style=&quot;border-color: var(--border-color); font-size: 16px;&quot;&gt;&amp;nbsp;Live Roller Conveyor&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1026" y="881" width="90" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-63" value="&lt;b style=&quot;border-color: var(--border-color); font-size: 16px;&quot;&gt;&amp;nbsp;Live Roller Conveyor&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1338" y="881" width="90" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-66" value="&lt;b style=&quot;border-color: var(--border-color); font-size: 16px;&quot;&gt;&amp;nbsp;Live Roller Conveyor&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="90" y="2299" width="90" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-67" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;Chain Cross Transfer&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="90" y="2239" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-68" value="" style="verticalLabelPosition=bottom;verticalAlign=middle;html=1;shape=mxgraph.basic.partConcEllipse;startAngle=0.5016407144851296;endAngle=0.9984085036175459;arcWidth=0.48;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;fontSize=16;strokeWidth=2;rotation=-180;" parent="1" vertex="1">
+          <mxGeometry x="1373" y="2050" width="281" height="249" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-69" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;Chain Cross Transfer&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="90" y="2050" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-70" value="&lt;b style=&quot;border-color: var(--border-color); font-size: 16px;&quot;&gt;&amp;nbsp;Live Roller Conveyor&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1428" y="2239" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-72" value="&lt;b style=&quot;border-color: var(--border-color); font-size: 16px;&quot;&gt;&amp;nbsp;Live Roller Conveyor&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1428" y="2050" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-73" value="&lt;b style=&quot;border-color: var(--border-color); font-size: 16px;&quot;&gt;&amp;nbsp;Live Roller Conveyor&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="90" y="1870" width="90" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-74" value="&lt;b style=&quot;border-color: var(--border-color); font-size: 16px;&quot;&gt;&amp;nbsp;Live Roller Conveyor&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="402" y="2299" width="90" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-75" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;Chain Cross Transfer&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="402" y="2239" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-76" value="&lt;b style=&quot;border-color: var(--border-color); font-size: 16px;&quot;&gt;&amp;nbsp;Live Roller Conveyor&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="180" y="2239" width="222" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-78" value="&lt;b style=&quot;border-color: var(--border-color); font-size: 16px;&quot;&gt;&amp;nbsp;Live Roller Conveyor&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="714" y="2299" width="90" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-79" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;Chain Cross Transfer&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="714" y="2239" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-80" value="&lt;b style=&quot;border-color: var(--border-color); font-size: 16px;&quot;&gt;&amp;nbsp;Live Roller Conveyor&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="492" y="2239" width="222" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-82" value="&lt;b style=&quot;border-color: var(--border-color); font-size: 16px;&quot;&gt;&amp;nbsp;Live Roller Conveyor&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1026" y="2299" width="90" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-83" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;Chain Cross Transfer&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1026" y="2239" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-84" value="&lt;b style=&quot;border-color: var(--border-color); font-size: 16px;&quot;&gt;&amp;nbsp;Live Roller Conveyor&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="804" y="2239" width="222" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-86" value="&lt;b style=&quot;border-color: var(--border-color); font-size: 16px;&quot;&gt;&amp;nbsp;Live Roller Conveyor&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1338" y="2299" width="90" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-87" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;Chain Cross Transfer&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1338" y="2239" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-88" value="&lt;b style=&quot;border-color: var(--border-color); font-size: 16px;&quot;&gt;&amp;nbsp;Live Roller Conveyor&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1116" y="2239" width="222" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-93" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;Chain Cross Transfer&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="402" y="2050" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-94" value="&lt;b style=&quot;border-color: var(--border-color); font-size: 16px;&quot;&gt;&amp;nbsp;Live Roller Conveyor&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="180" y="2050" width="222" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-95" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;Chain Cross Transfer&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="714" y="2050" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-96" value="&lt;b style=&quot;border-color: var(--border-color); font-size: 16px;&quot;&gt;&amp;nbsp;Live Roller Conveyor&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="492" y="2050" width="222" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-97" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;Chain Cross Transfer&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1026" y="2050" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-98" value="&lt;b style=&quot;border-color: var(--border-color); font-size: 16px;&quot;&gt;&amp;nbsp;Live Roller Conveyor&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="804" y="2050" width="222" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-99" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;Chain Cross Transfer&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1338" y="2050" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-100" value="&lt;b style=&quot;border-color: var(--border-color); font-size: 16px;&quot;&gt;&amp;nbsp;Live Roller Conveyor&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1116" y="2050" width="222" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-103" value="&lt;b style=&quot;border-color: var(--border-color); font-size: 16px;&quot;&gt;&amp;nbsp;Live Roller Conveyor&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="402" y="1870" width="90" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-104" value="&lt;b style=&quot;border-color: var(--border-color); font-size: 16px;&quot;&gt;&amp;nbsp;Live Roller Conveyor&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="714" y="1870" width="90" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-105" value="&lt;b style=&quot;border-color: var(--border-color); font-size: 16px;&quot;&gt;&amp;nbsp;Live Roller Conveyor&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1026" y="1870" width="90" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-106" value="&lt;b style=&quot;border-color: var(--border-color); font-size: 16px;&quot;&gt;&amp;nbsp;Live Roller Conveyor&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1338" y="1870" width="90" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-108" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=16;strokeWidth=2;" parent="1" target="Qpr2iq27fssjLLrTtA4k-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="246" y="1900" as="sourcePoint" />
+            <mxPoint x="313" y="1668" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-118" value="Aisle" style="swimlane;whiteSpace=wrap;html=1;startSize=21;fontSize=16;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;strokeWidth=2;gradientColor=none;labelBackgroundColor=none;swimlaneFillColor=#E6E6E6;" parent="1" vertex="1">
+          <mxGeometry x="503" y="1400" width="110" height="538" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-119" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;Stacker Crane&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" parent="4B4s13dTnLbqyoFDr9Jq-118" vertex="1">
+          <mxGeometry x="10" y="30" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-120" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=16;strokeWidth=2;" parent="1" target="4B4s13dTnLbqyoFDr9Jq-119" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="558" y="1900" as="sourcePoint" />
+            <mxPoint x="625" y="1668" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-121" value="Aisle" style="swimlane;whiteSpace=wrap;html=1;startSize=21;fontSize=16;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;strokeWidth=2;gradientColor=none;labelBackgroundColor=none;swimlaneFillColor=#E6E6E6;" parent="1" vertex="1">
+          <mxGeometry x="815" y="1400" width="110" height="538" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-122" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;Stacker Crane&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" parent="4B4s13dTnLbqyoFDr9Jq-121" vertex="1">
+          <mxGeometry x="10" y="30" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-123" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=16;strokeWidth=2;" parent="1" target="4B4s13dTnLbqyoFDr9Jq-122" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="870" y="1900" as="sourcePoint" />
+            <mxPoint x="937" y="1668" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-124" value="Aisle" style="swimlane;whiteSpace=wrap;html=1;startSize=21;fontSize=16;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;strokeWidth=2;gradientColor=none;labelBackgroundColor=none;swimlaneFillColor=#E6E6E6;" parent="1" vertex="1">
+          <mxGeometry x="1127" y="1400" width="110" height="538" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-125" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;Stacker Crane&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" parent="4B4s13dTnLbqyoFDr9Jq-124" vertex="1">
+          <mxGeometry x="10" y="30" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-126" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=16;strokeWidth=2;" parent="1" target="4B4s13dTnLbqyoFDr9Jq-125" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1182" y="1900" as="sourcePoint" />
+            <mxPoint x="1249" y="1668" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-127" value="Aisle" style="swimlane;whiteSpace=wrap;html=1;startSize=21;fontSize=16;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;strokeWidth=2;gradientColor=none;labelBackgroundColor=none;swimlaneFillColor=#E6E6E6;" parent="1" vertex="1">
+          <mxGeometry x="1439" y="1400" width="110" height="538" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-128" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;Stacker Crane&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" parent="4B4s13dTnLbqyoFDr9Jq-127" vertex="1">
+          <mxGeometry x="10" y="30" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-129" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=16;strokeWidth=2;" parent="1" target="4B4s13dTnLbqyoFDr9Jq-128" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1494" y="1900" as="sourcePoint" />
+            <mxPoint x="1561" y="1668" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4B4s13dTnLbqyoFDr9Jq-131" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;Gate&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="90" y="821" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uo662uxAyjSOBv1tQc84-1" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;Gate&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="402" y="821" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uo662uxAyjSOBv1tQc84-2" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;Gate&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="714" y="821" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uo662uxAyjSOBv1tQc84-3" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;Gate&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1026" y="821" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uo662uxAyjSOBv1tQc84-4" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;Gate&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1338" y="821" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jVMxFmd2A0Un8guJK3Ca-1" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;Gate&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="90" y="2479" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jVMxFmd2A0Un8guJK3Ca-2" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;Gate&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="402" y="2479" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jVMxFmd2A0Un8guJK3Ca-3" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;Gate&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="714" y="2479" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jVMxFmd2A0Un8guJK3Ca-4" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;Gate&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1026" y="2479" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jVMxFmd2A0Un8guJK3Ca-5" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;Gate&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1338" y="2479" width="90" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
