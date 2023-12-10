@@ -4,83 +4,96 @@
 
 set -e
 
-warehouse="/usr/app/bin/Warehouse"
+# set up directories and constants
+app_dir="/usr/app"
+src_dir="$app_dir/src/warehouse"
+results_dir="$app_dir/results"
+mkdir -p "$results_dir"
+lf_bin_dir="$app_dir/bin"
+mkdir -p "$lf_bin_dir"
+network_simulation="star_tree"
+rti_ip="192.168.2.1"
+federation_name="Warehouse"
+federation_run_dir="$app_dir/fed-run/$federation_name"
+mkdir -p "$federation_run_dir"
+federation_out_dir="$results_dir/$federation_name"
+rti_log="$federation_out_dir/${federation_name}_RTI.log"
+mkdir -p "$federation_out_dir"
+federation_id=`openssl rand -hex 24`
 
-if [ ! -e "$warehouse" ]; then
+# build the Lingua Franca project if necessary
+if [ ! -e "$lf_bin_dir/$federation_name" ]; then
     echo "Building Warehouse before running simulation"
     bash build-warehouse
 fi
 
-federation="Warehouse"
-
-
-federate_definitions=$(awk '/= new .* at .*;/ { gsub(";", ""); print $1, $NF }' "src/warehouse/Warehouse.lf")
+# get federate names and ip addresses from the main source file
+federate_definitions=$(awk '/= new .* at .*;/ { gsub(";", ""); print $1, $NF }' "$src_dir/$federation_name.lf")
 readarray -t federates <<< $federate_definitions
 num_federates=${#federates[@]}
 
+# set up federate info and directories
 declare -A federates_name
 declare -A federates_ip
+declare -A federates_dir
+declare -A federates_path
 for ((i = 0; i < "$num_federates"; i++)); do
+    # get federate name and ip
     federate="${federates[$i]}"
-    federates_name[$i]=$(echo "$federate" | awk '{ print $1 }')
-    federates_ip[$i]=$(echo "$federate" | awk '{ print $2 }')
-    echo "federate $i name ${federates_name[$i]} ip ${federates_ip[$i]}"
+    federate_name=$(echo "$federate" | awk '{ print $1 }')
+    federates_name[$i]="$federate_name"
+    federate_ip=$(echo "$federate" | awk '{ print $2 }')
+    federates_ip[$i]="$federate_ip"
+    # set up directory federate will run in
+    federate_run_dir="$federation_run_dir/$federate_name"
+    mkdir -p "$federate_run_dir"
+    federate_run="$federate_run_dir/${federation_name}_federate__$federate_name"
+    federates_run[$i]="$federate_run"
+    # set up directory federate will output to
+    federate_out_dir="$federation_out_dir/$federate_name"
+    mkdir -p "$federate_out_dir"
+    federates_log[$i]="$federate_out_dir/$federate_name.log"
+    # add content to federate run directory
+    cp "$app_dir/fed-gen/$federation_name/bin/federate__$federate_name" "$federate_run"
+    ln -s "$federate_out_dir" "$federate_run_dir/out"
+    echo "Set up federate $i name ${federates_name[$i]} ip ${federates_ip[$i]}"
 done
 
-pushd /root > /dev/null
-mkdir -p LinguaFrancaRemote/bin LinguaFrancaRemote/log
-for federate in "${federates_name[@]}"; do
-    echo "Distributing remote executable for federate__$federate"
-    mkdir -p "LinguaFrancaRemote/fed-gen/$federation/src-gen/federate__$federate/core"
-    cp "/usr/app/fed-gen/$federation/bin/federate__$federate" "/root/LinguaFrancaRemote/bin/${federation}_federate__$federate"
-done
-
-popd > /dev/null
-
-simulation="star_tree"
-
-echo "Starting network simulation"
-
-mkdir -p results
-
-bash run -p "$simulation" &> results/simulation.log &
-
+# start network simulation
+echo "Starting $network_simulation network simulation"
+bash run -p "$network_simulation" &> "$results_dir/network_simulation.log" &
 while ! ip a | grep -q "tap_l.*state UP";
 do
     sleep 1
 done
 
-echo "Starting Warehouse"
+# start federation
+echo "Starting $federation_name"
 
-FEDERATION_ID=`openssl rand -hex 24`
-log_dir=$(realpath results)/log
-
-mkdir -p "$log_dir"
-
-r_log="$log_dir/${federation}_RTI.log"
-ssh 192.168.2.1 '\
-    echo "-------------- Federation ID: "'$FEDERATION_ID' >> '$r_log'; \
-    date >> '$r_log'; \
+ssh "$rti_ip" '\
+    echo "-------------- Federation ID: "'$federation_id' >> '$rti_log'; \
+    date >> '$rti_log'; \
     stdbuf -i 0 -o 0 -e 0 \
-    RTI -i '$FEDERATION_ID' -n '$num_federates' -c init exchanges-per-interval 10 \
-    2>&1 | tee -a '$r_log'' &
+    RTI -i '$federation_id' -n '$num_federates' -c init exchanges-per-interval 10 \
+    2>&1 | tee -a '$rti_log'' &
 
 start_federate(){
-    name=$1
-    ip=$2
-    log="$log_dir/${federation}_federate__$name.log"
+    index=$1
+    name="${federates_name[$index]}"
+    ip="${federates_ip[$index]}"
+    log="${federates_log[$index]}"
+    run="${federates_run[$index]}"
 
     echo "Starting federate $name at $ip with log $log"
 
     ssh "$ip" '\
-        cd LinguaFrancaRemote; \
-        echo "-------------- Federation ID: "'$FEDERATION_ID' >> '$log'; \
+        echo "-------------- Federation ID: "'$federation_id' >> '$log'; \
         date >> '$log'; \
         stdbuf -i 0 -o 0 -e 0 \
-        bin/'$federation'_federate__'$name' -i '$FEDERATION_ID' \
+        '$run' -i '$federation_id' \
         2>&1 | tee -a '$log'' &
 }
 
 for ((i = 0; i < "$num_federates"; i++)); do
-    start_federate ${federates_name[$i]} ${federates_ip[$i]}
+    start_federate $i
 done
