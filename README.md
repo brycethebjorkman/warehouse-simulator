@@ -16,6 +16,7 @@ Instructions:
 git clone https://github.com/brycethebjorkman/warehouse-simulator
 
 # clone submodules
+cd warehouse-simulator
 git submodule update --init --recursive
 ```
 
