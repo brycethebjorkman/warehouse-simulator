@@ -1,0 +1,20 @@
+target C
+
+reactor Trsfr {
+    input cmd: int
+    output wms: int
+    state c: int = 0
+    timer t(0, 1 sec)
+    reaction(t) -> wms {=
+        lf_print("Sending Message (%lld, %d)",
+            lf_time_logical_elapsed(), lf_tag().microstep
+        );
+        self->c++;
+        lf_set(wms, self->c);
+    =}
+    reaction(cmd) {=
+        lf_print("Command Received: %d at (%lld, %d)", cmd->value,
+            lf_time_logical_elapsed(), lf_tag().microstep
+        );
+    =}
+}

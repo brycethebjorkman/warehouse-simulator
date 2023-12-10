@@ -1,0 +1,33 @@
+target C {
+    files: ["common.h","common.c"]
+}
+preamble {=
+    #include "common.h"
+=}
+
+reactor Gate(entry: bool = 0) {
+    preamble {=
+        #include "common.c"
+        void* simulate_shipments(void* a) {
+            InputQueue input_queue;
+            SLIST_INIT(&input_queue.head);
+            parse_input_csv("out/input.csv", &input_queue);
+        }
+    =}
+    input cmd: int
+    output wms: int
+    state is_open: bool = 1
+    timer t(0, 1 sec)
+    state thread_id: lf_thread_t = 0
+    physical action a(100 msec): int
+    reaction(startup) -> a {=
+        if(self->entry) {
+            //lf_thread_create(&self->thread_id, &simulate_shipments, a);
+        }
+    =}
+    reaction(cmd) {=
+        lf_print("Command Received: %d at (%lld, %d)", cmd->value,
+            lf_time_logical_elapsed(), lf_tag().microstep
+        );
+    =}
+}

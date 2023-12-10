@@ -1,21 +1,29 @@
 target C
 
-import  Controller  from "Controller.lf"
-import  Retrieval   from "Retrieval.lf"
-import  Sortation   from "Sortation.lf"
-import  Storage     from "Storage.lf"
+import  Crane   from "Crane.lf"
+import  Trsfr   from "Trsfr.lf"
+import  WMS     from "WMS.lf"
+import  Zone    from "Zone.lf"
 
 federated reactor Warehouse at 192.168.2.1 {
-    controller  = new Controller() at 192.168.2.2;
-    retrieval   = new Retrieval() at 192.168.2.3;
-    sortation   = new Sortation() at 192.168.2.4;
-    storage     = new Storage() at 192.168.2.5;
+    wms         = new WMS()         at 192.168.2.2;
+    zone1       = new Zone(feeds=0) at 192.168.2.4;
+    zone2       = new Zone(feeds=1) at 192.168.2.5;
+    trsfr1      = new Trsfr()       at 192.168.2.6;
+    zone3       = new Zone(feeds=1) at 192.168.2.7;
+    crane1      = new Crane()       at 192.168.2.8;
+    zone4       = new Zone(feeds=0) at 192.168.2.9;
 
-    retrieval.msg   -> controller.retrieval_msg_in
-    sortation.msg   -> controller.sortation_msg_in
-    storage.msg     -> controller.storage_msg_in
-
-    controller.retrieval_msg_out    -> retrieval.cmd
-    controller.sortation_msg_out    -> sortation.cmd
-    controller.storage_msg_out      -> storage.cmd
+    zone1.wms   -> wms.z1m
+    wms.z1      -> zone1.cmd
+    zone2.wms   -> wms.z2m
+    wms.z2      -> zone2.cmd
+    trsfr1.wms  -> wms.t1m
+    wms.t1      -> trsfr1.cmd
+    zone3.wms   -> wms.z3m
+    wms.z3      -> zone3.cmd
+    crane1.wms  -> wms.c1m
+    wms.c1      -> crane1.cmd
+    zone4.wms   -> wms.z4m
+    wms.z4      -> zone4.cmd
 }

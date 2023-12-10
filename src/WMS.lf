@@ -1,0 +1,76 @@
+target C
+
+reactor WMS {
+    input g1m: int
+    output g1: int
+    input z1m: int
+    output z1: int
+    input z2m: int
+    output z2: int
+    input t1m: int
+    output t1: int
+    input z3m: int
+    output z3: int
+    input c1m: int
+    output c1: int
+    input z4m: int
+    output z4: int
+    input g2m: int
+    output g2: int
+    state c: int = 0
+    timer t(0, 1 sec)
+    reaction(t) -> g1, z1, z2, t1, z3, c1, z4, g2 {=
+        lf_print("Sending Commands at (%lld, %d)",
+            lf_time_logical_elapsed(), lf_tag().microstep
+        );
+        self->c++;
+        lf_set(g1, self->c);
+        lf_set(z1, self->c);
+        lf_set(z2, self->c);
+        lf_set(t1, self->c);
+        lf_set(z3, self->c);
+        lf_set(c1, self->c);
+        lf_set(z4, self->c);
+        lf_set(g2, self->c);
+    =}
+    reaction(g1m) {=
+        lf_print("Gate 1 Message Received: %d at (%lld, %d)", g1m->value,
+            lf_time_logical_elapsed(), lf_tag().microstep
+        );
+    =}
+    reaction(z1m) {=
+        lf_print("Zone 1 Message Received: %d at (%lld, %d)", z1m->value,
+            lf_time_logical_elapsed(), lf_tag().microstep
+        );
+    =}
+    reaction(z2m) {=
+        lf_print("Zone 2 Message Received: %d at (%lld, %d)", z2m->value,
+            lf_time_logical_elapsed(), lf_tag().microstep
+        );
+    =}
+    reaction(t1m) {=
+        lf_print("Trsfr 1 Message Received: %d at (%lld, %d)", t1m->value,
+            lf_time_logical_elapsed(), lf_tag().microstep
+        );
+    =}
+    reaction(z3m) {=
+        lf_print("Zone 3 Message Received: %d at (%lld, %d)", z3m->value,
+            lf_time_logical_elapsed(), lf_tag().microstep
+        );
+    =}
+    reaction(c1m) {=
+        lf_print("Crane 1 Message Received: %d at (%lld, %d)", c1m->value,
+            lf_time_logical_elapsed(), lf_tag().microstep
+        );
+    =}
+    reaction(z4m) {=
+        lf_print("Zone 4 Message Received: %d at (%lld, %d)", z4m->value,
+            lf_time_logical_elapsed(), lf_tag().microstep
+        );
+    =}
+    reaction(g2m) {=
+        lf_print("Gate 2 Message Received: %d at (%lld, %d)", g2m->value,
+            lf_time_logical_elapsed(), lf_tag().microstep
+        );
+    =}
+}
